@@ -1,0 +1,12 @@
+
+define table z##employ {
+  key client        : abap.clnt not null;
+  key employee_id   : z1039_employee_id;
+      first_name    : /dmo/first_name;
+      last_name     : /dmo/last_name;
+      birth_date    : z1039_birth_date;
+      entry_date    : z1039_entry_date;
+      @Semantics.amount.currencyCode : 'z1039_employ.currency_code'
+      annual_salary : z1039_annual_salary;
+      currency_code : waers;
+}

@@ -1,0 +1,11 @@
+
+@EndUserText.label : 'Employee'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table z##employ {
+
+  key client : abap.clnt not null;
+
+}
